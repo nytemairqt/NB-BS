@@ -19,7 +19,7 @@ Content.makeFrontInterface(1000, 710);
 
 /* Instantiate NEATBrain */
 
-const MEMORYNAME = "NB-00";
+const MEMORYNAME = "NB-BS";
 const NUMPROFILES = 3;
 
 /* Instantiate Rhapsody UI */

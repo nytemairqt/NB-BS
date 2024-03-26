@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Processor Type="SynthChain" ID="neatbraininstrument" Bypassed="0" Gain="1.0"
+<Processor Type="SynthChain" ID="NB-BS" Bypassed="0" Gain="1.0"
            Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0"
            packageName="" BuildVersion="650">
   <ChildProcessors>
@@ -38,7 +38,7 @@
             <Control type="ScriptSlider" id="knbFineDetune" value="0.0"/>
             <Control type="ScriptSlider" id="knbTranspose" value="0.0"/>
           </Content>
-          <UIData Source="neatbraininstrumentUIData"/>
+          <UIData Source="NB-BSUIData"/>
         </Processor>
       </ChildProcessors>
     </Processor>
