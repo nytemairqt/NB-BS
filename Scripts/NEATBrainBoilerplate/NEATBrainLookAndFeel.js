@@ -192,19 +192,19 @@ pnlProfilePartial.setPaintRoutine(function(g)
 {
 	// Draw Paths
 	var p = Content.createPath();
-	var x = 90;
+	var x = 96;
 	g.setColour(Colours.grey);
 	
 	switch (cmbPartialProfile.getValue())
 	{
 		case 1:
-			p.loadFromData(pathProfileA);
+			p.loadFromData(path_WGProfileA);
 			break;
 		case 2:
-			p.loadFromData(pathProfileB);
+			p.loadFromData(path_WGProfileB);
 			break;		
 		case 3:
-			p.loadFromData(pathProfileD);
+			p.loadFromData(path_WGProfileC);
 			break;
 	}
 	
@@ -215,20 +215,20 @@ pnlProfileResidue.setPaintRoutine(function(g)
 {
 	
 	var p = Content.createPath();
-	var x = 50;
-	var y = 130;
+	var x = 70;
+	var y = 100;
 	g.setColour(Colours.grey);
 	
 	switch (cmbResidueProfile.getValue())
 	{
 		case 1:
-			p.loadFromData(pathProfileAPkp);
+			p.loadFromData(path_RSProfileA);
 			break;
 		case 2:
-			p.loadFromData(pathProfileBPkp);
+			p.loadFromData(path_RSProfileB);
 			break;		
 		case 3:
-			p.loadFromData(pathProfileCPkp);
+			p.loadFromData(path_RSProfileC);
 			break;
 	}
 	
