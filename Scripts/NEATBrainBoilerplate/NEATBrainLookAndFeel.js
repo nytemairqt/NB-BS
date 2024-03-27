@@ -228,7 +228,7 @@ pnlProfileResidue.setPaintRoutine(function(g)
 			p.loadFromData(path_RSProfileB);
 			break;		
 		case 3:
-			y = 60;
+			x = 40;
 			p.loadFromData(path_RSProfileC);
 			break;
 	}
