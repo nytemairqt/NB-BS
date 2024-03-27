@@ -11,7 +11,7 @@ reg roll;function onNoteOn()
 {
 	m = Message.getNoteNumber();
 	
-	if (m > 24 && m < 88)
+	if (m > 24 && m < 64)
 	{
 		roll = Math.random();
 			

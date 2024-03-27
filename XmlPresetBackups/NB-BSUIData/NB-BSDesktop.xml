@@ -160,18 +160,18 @@
         <Component type="ScriptPanel" id="lblAmp" x="-29" y="122" width="128" height="32"
                    text="Amp" parentComponent="pnlAdvanced"/>
         <Component type="ScriptSlider" id="knbPitchVelocity" x="91" y="292" text="PitchVel"
-                   defaultValue="0.2000000029802322" width="48" height="48" parentComponent="pnlAdvanced"
+                   defaultValue="0.1000000014901161" width="48" height="48" parentComponent="pnlAdvanced"
                    isPluginParameter="1" pluginParameterName="PitchVel" tooltip="Adds subtle Pitch-Bend for harder Velocities."/>
         <Component type="ScriptSlider" id="knbPitchDecay" x="191" y="292" text="PitchDec"
                    defaultValue="1000.0" width="48" height="48" parentComponent="pnlAdvanced"
                    min="20" max="4000" stepSize="1.0" isPluginParameter="1" pluginParameterName="PitchDec"
                    tooltip="Decay time for the Velocity Pitch-Bend."/>
         <Component type="ScriptSlider" id="knbPitchRandom" x="391" y="292" text="PitchRand"
-                   defaultValue="0.300000011920929" width="48" height="48" parentComponent="pnlAdvanced"
+                   defaultValue="0.1000000014901161" width="48" height="48" parentComponent="pnlAdvanced"
                    isPluginParameter="1" pluginParameterName="PitchRand" tooltip="Per-voice Pitch Randomization."/>
         <Component type="ScriptSlider" id="knbPitchLFO" x="291" y="292" text="PitchLFO"
-                   defaultValue="0.300000011920929" width="48" height="48" parentComponent="pnlAdvanced"
-                   isPluginParameter="1" pluginParameterName="PitchLFO" tooltip="Subtle Pitch Drift over time."/>
+                   width="48" height="48" parentComponent="pnlAdvanced" isPluginParameter="1"
+                   pluginParameterName="PitchLFO" tooltip="Subtle Pitch Drift over time."/>
         <Component type="ScriptSlider" id="knbAmpVelocity" x="91" y="152" text="AmpVel"
                    defaultValue="0.300000011920929" width="48" height="48" parentComponent="pnlAdvanced"
                    isPluginParameter="1" pluginParameterName="AmpVel" tooltip="Amplitude-velocity influence."/>
@@ -191,7 +191,7 @@
                    width="48" height="48" isPluginParameter="1" pluginParameterName="ToneBright"
                    parentComponent="pnlAdvanced" min="-1.0" tooltip="Transparent high (8kHz) frequency EQ Sculpt."/>
         <Component type="ScriptSlider" id="knbToneDampen" x="391" y="432" text="ToneDamp"
-                   defaultValue="0.4000000059604645" width="48" height="48" parentComponent="pnlAdvanced"
+                   defaultValue="0.6000000238418579" width="48" height="48" parentComponent="pnlAdvanced"
                    isPluginParameter="1" pluginParameterName="ToneDamp" tooltip="Dynamic pitch-based harshness attenuation."/>
         <Component type="ScriptPanel" id="lblAmpVelocity" x="52" y="202" width="128"
                    height="32" text="Vel" parentComponent="pnlAdvanced"/>

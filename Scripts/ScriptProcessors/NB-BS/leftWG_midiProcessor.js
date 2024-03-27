@@ -8,7 +8,7 @@ reg v = 0;function onNoteOn()
 	if (m < 12)
 		Message.ignoreEvent(1);
 	
-	if (m > 88)
+	if (m > 64)
 		Message.ignoreEvent(1);		
 }
  function onNoteOff()
