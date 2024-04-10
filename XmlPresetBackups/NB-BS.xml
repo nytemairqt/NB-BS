@@ -9,17 +9,17 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptComboBox" id="cmbResidueProfile" value="3.0"/>
-            <Control type="ScriptComboBox" id="cmbPartialProfile" value="3.0"/>
+            <Control type="ScriptComboBox" id="cmbResidueProfile" value="1"/>
+            <Control type="ScriptComboBox" id="cmbPartialProfile" value="1"/>
             <Control type="ScriptSlider" id="knbPartialGain" value="0.75"/>
-            <Control type="ScriptSlider" id="knbPartialAttack" value="148.0"/>
-            <Control type="ScriptSlider" id="knbPartialDecay" value="18042.0"/>
+            <Control type="ScriptSlider" id="knbPartialAttack" value="88.0"/>
+            <Control type="ScriptSlider" id="knbPartialDecay" value="17496.0"/>
             <Control type="ScriptSlider" id="knbPartialSustain" value="-100.0"/>
             <Control type="ScriptSlider" id="knbPartialRelease" value="80.0"/>
             <Control type="ScriptSlider" id="knbResidueGain" value="0.75"/>
             <Control type="ScriptSlider" id="knbResidueAttack" value="5.0"/>
-            <Control type="ScriptSlider" id="knbResidueDecay" value="16950.0"/>
-            <Control type="ScriptSlider" id="knbResidueSustain" value="-2.0"/>
+            <Control type="ScriptSlider" id="knbResidueDecay" value="17730.0"/>
+            <Control type="ScriptSlider" id="knbResidueSustain" value="-100.0"/>
             <Control type="ScriptSlider" id="knbResidueRelease" value="320.0"/>
             <Control type="ScriptSlider" id="knbPitchVelocity" value="0.1000000014901161"/>
             <Control type="ScriptSlider" id="knbPitchDecay" value="1000.0"/>
@@ -173,7 +173,7 @@
           <ChildProcessors>
             <Processor Type="AHDSR" ID="leftRS_gainAHDSR" Bypassed="0" Monophonic="0.0"
                        Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                       Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="16950.0" Sustain="-2.000000238418579"
+                       Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="17730.0" Sustain="-100.0"
                        Release="320.0" EcoMode="1.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
@@ -222,7 +222,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="CurveEq" ID="leftRS_fxProfileA" Bypassed="1" NumFilters="1"
+            <Processor Type="CurveEq" ID="leftRS_fxProfileA" Bypassed="0" NumFilters="1"
                        Band0="-2.110000133514404" Band1="1703.10107421875" Band2="0.5199999809265137"
                        Band3="1.0" Band4="3.0" FFTEnabled="0">
               <ChildProcessors/>
@@ -244,7 +244,7 @@
               <ChildProcessors/>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
             </Processor>
-            <Processor Type="CurveEq" ID="leftRS_fxProfileC" Bypassed="0" NumFilters="9"
+            <Processor Type="CurveEq" ID="leftRS_fxProfileC" Bypassed="1" NumFilters="9"
                        Band0="-4.634483337402344" Band1="3568.322509765625" Band2="0.5199999809265137"
                        Band3="1.0" Band4="3.0" Band5="12.08275890350342" Band6="56.4048957824707"
                        Band7="0.5299999713897705" Band8="1.0" Band9="2.0" Band10="1.98620617389679"
@@ -331,8 +331,8 @@
           <ChildProcessors>
             <Processor Type="AHDSR" ID="leftWG_gainAHDSR" Bypassed="0" Monophonic="0.0"
                        Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                       Attack="148.0" AttackLevel="0.0" Hold="10.0" Decay="18042.0"
-                       Sustain="-100.0" Release="80.0" EcoMode="1.0">
+                       Attack="88.0" AttackLevel="0.0" Hold="10.0" Decay="17496.0" Sustain="-100.0"
+                       Release="80.0" EcoMode="1.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
@@ -430,7 +430,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="CurveEq" ID="leftWG_fxProfileA" Bypassed="1" NumFilters="2"
+            <Processor Type="CurveEq" ID="leftWG_fxProfileA" Bypassed="0" NumFilters="2"
                        Band0="4.634483814239502" Band1="1843.55908203125" Band2="0.5199999809265137"
                        Band3="1.0" Band4="3.0" Band5="3.959999561309814" Band6="106.3289184570312"
                        Band7="0.4000000059604645" Band8="1.0" Band9="4.0" FFTEnabled="0">
@@ -453,7 +453,7 @@
               <ChildProcessors/>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
             </Processor>
-            <Processor Type="CurveEq" ID="leftWG_fxProfileC" Bypassed="0" NumFilters="9"
+            <Processor Type="CurveEq" ID="leftWG_fxProfileC" Bypassed="1" NumFilters="9"
                        Band0="-12.24827671051025" Band1="2400.931640625" Band2="0.5199999809265137"
                        Band3="1.0" Band4="3.0" Band5="7.282758235931396" Band6="48.77746963500977"
                        Band7="0.5299999713897705" Band8="1.0" Band9="2.0" Band10="4.965517044067383"
@@ -615,7 +615,7 @@
           <ChildProcessors>
             <Processor Type="AHDSR" ID="rightRS_gainAHDSR" Bypassed="0" Monophonic="0.0"
                        Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                       Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="16950.0" Sustain="-2.000000238418579"
+                       Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="17730.0" Sustain="-100.0"
                        Release="320.0" EcoMode="1.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
@@ -664,7 +664,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="CurveEq" ID="rightRS_fxProfileA" Bypassed="1" NumFilters="1"
+            <Processor Type="CurveEq" ID="rightRS_fxProfileA" Bypassed="0" NumFilters="1"
                        Band0="-2.110000133514404" Band1="1703.10107421875" Band2="0.5199999809265137"
                        Band3="1.0" Band4="3.0" FFTEnabled="0">
               <ChildProcessors/>
@@ -686,7 +686,7 @@
               <ChildProcessors/>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
             </Processor>
-            <Processor Type="CurveEq" ID="rightRS_fxProfileC" Bypassed="0" NumFilters="9"
+            <Processor Type="CurveEq" ID="rightRS_fxProfileC" Bypassed="1" NumFilters="9"
                        Band0="-4.634483337402344" Band1="3568.322509765625" Band2="0.5199999809265137"
                        Band3="1.0" Band4="3.0" Band5="16.55172348022461" Band6="48.13745880126953"
                        Band7="0.5299999713897705" Band8="1.0" Band9="2.0" Band10="5.462069034576416"
@@ -777,8 +777,8 @@
           <ChildProcessors>
             <Processor Type="AHDSR" ID="rightWG_gainAHDSR" Bypassed="0" Monophonic="0.0"
                        Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                       Attack="148.0" AttackLevel="0.0" Hold="10.0" Decay="18042.0"
-                       Sustain="-100.0" Release="80.0" EcoMode="1.0">
+                       Attack="88.0" AttackLevel="0.0" Hold="10.0" Decay="17496.0" Sustain="-100.0"
+                       Release="80.0" EcoMode="1.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
@@ -876,7 +876,7 @@
         </Processor>
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors>
-            <Processor Type="CurveEq" ID="rightWG_fxProfileA" Bypassed="1" NumFilters="1"
+            <Processor Type="CurveEq" ID="rightWG_fxProfileA" Bypassed="0" NumFilters="1"
                        Band0="9.434482574462891" Band1="1795.497924804688" Band2="0.5199999809265137"
                        Band3="1.0" Band4="3.0" FFTEnabled="0">
               <ChildProcessors/>
@@ -898,7 +898,7 @@
               <ChildProcessors/>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
             </Processor>
-            <Processor Type="CurveEq" ID="rightWG_fxProfileC" Bypassed="0" NumFilters="9"
+            <Processor Type="CurveEq" ID="rightWG_fxProfileC" Bypassed="1" NumFilters="9"
                        Band0="-12.08275699615479" Band1="4350.1689453125" Band2="0.5199999809265137"
                        Band3="1.0" Band4="3.0" Band5="9.76551628112793" Band6="46.26736068725586"
                        Band7="0.5299999713897705" Band8="1.0" Band9="2.0" Band10="5.462069034576416"

@@ -149,7 +149,7 @@
                  width="30" height="30" text="Prev" saveInPreset="0" isMomentary="1"
                  parentComponent="pnlBody" tooltip="Next Residue Profile." enableMidiLearn="0"/>
       <Component type="ScriptPanel" id="pnlAdvanced" x="496" y="0" width="500"
-                 height="522" parentComponent="pnlBody" visible="0">
+                 height="522" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptPanel" id="lblAdvanced" x="-11" y="16" width="128"
                    height="64" text="ADVANCED" parentComponent="pnlAdvanced"/>
         <Component type="ScriptPanel" id="lblTone" x="-29" y="402" width="128" height="32"
