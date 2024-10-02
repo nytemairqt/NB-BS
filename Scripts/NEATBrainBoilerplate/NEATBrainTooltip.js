@@ -40,10 +40,10 @@ pnlTooltip.startTimer(17);
 
 btnPartialProfilePrev.set("tooltip", "Previous Partial Profile.");
 btnPartialProfileNext.set("tooltip", "Next Partial Profile.");
-btnShowWGProfileCustom.set("tooltip", "Create a Custom Profile.");
+//btnShowWGProfileCustom.set("tooltip", "Create a Custom Profile.");
 btnResidueProfilePrev.set("tooltip", "Previous Residue Profile.");
 btnResidueProfileNext.set("tooltip", "Next Residue Profile.");
-btnShowRSProfileCustom.set("tooltip", "Create a Custom Profile.");
+//btnShowRSProfileCustom.set("tooltip", "Create a Custom Profile.");
 btnShowAdvancedPanel.set("tooltip", "Display Advanced settings.");
 knbPartialGain.set("tooltip", "Partial Gain.");
 knbPartialAttack.set("tooltip", "Partial Attack time.");

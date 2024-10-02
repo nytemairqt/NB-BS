@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="leftRLS" RRGroupAmount="1.0" MicPositions=";" CrossfadeGamma="1.0"
-           SaveMode="2">
+           SaveMode="1">
   <sample Root="0" LoKey="0" HiKey="0" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}leftRLS/03.wav" Duplicate="1" Volume="-4"
           SampleEnd="17914" MonolithOffset="0" MonolithLength="20480" SampleRate="44100.0"/>

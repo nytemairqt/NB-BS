@@ -149,7 +149,7 @@
                  width="30" height="30" text="Prev" saveInPreset="0" isMomentary="1"
                  parentComponent="pnlBody" tooltip="Next Residue Profile." enableMidiLearn="0"/>
       <Component type="ScriptPanel" id="pnlAdvanced" x="496" y="0" width="500"
-                 height="522" parentComponent="pnlBody" visible="0.0">
+                 height="522" parentComponent="pnlBody" visible="0">
         <Component type="ScriptPanel" id="lblAdvanced" x="-11" y="16" width="128"
                    height="64" text="ADVANCED" parentComponent="pnlAdvanced"/>
         <Component type="ScriptPanel" id="lblTone" x="-29" y="402" width="128" height="32"
@@ -210,26 +210,6 @@
                    height="32" text="Bite" parentComponent="pnlAdvanced"/>
         <Component type="ScriptPanel" id="lblToneShimmer" x="292" y="482" width="128"
                    height="32" text="Shimmer" parentComponent="pnlAdvanced"/>
-      </Component>
-      <Component type="ScriptButton" id="btnShowWGProfileCustom" x="114" y="18"
-                 width="18" height="18" text="open" saveInPreset="0" parentComponent="pnlBody"
-                 enableMidiLearn="0" tooltip="Create a Custom Profile."/>
-      <Component type="ScriptPanel" id="pnlWGProfileCustom" x="10" y="50" width="460"
-                 height="354" parentComponent="pnlBody" visible="0.0">
-        <Component type="ScriptFloatingTile" id="fltWGProfileCustom" x="0.0" y="0.0"
-                   parentComponent="pnlWGProfileCustom" width="460.0" height="350.0"
-                   ContentType="DraggableFilterPanel" bgColour="0" itemColour="2164260863"
-                   itemColour2="855638016" Data="{&#10;  &quot;ProcessorId&quot;: &quot;leftWG_fxProfileCustom&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
-      </Component>
-      <Component type="ScriptButton" id="btnShowRSProfileCustom" x="584" y="18"
-                 width="18" height="18" text="open" saveInPreset="0" parentComponent="pnlBody"
-                 enableMidiLearn="0" tooltip="Create a Custom Profile."/>
-      <Component type="ScriptPanel" id="pnlRSProfileCustom" x="512" y="50" width="460"
-                 height="354" parentComponent="pnlBody" visible="0.0">
-        <Component type="ScriptFloatingTile" id="fltRSProfileCustom" x="0.0" y="0.0"
-                   width="460.0" height="350.0" parentComponent="pnlRSProfileCustom"
-                   ContentType="DraggableFilterPanel" bgColour="0" itemColour="2164260863"
-                   itemColour2="855638016" Data="{&#10;  &quot;ProcessorId&quot;: &quot;leftRS_fxProfileCustom&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
       </Component>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
