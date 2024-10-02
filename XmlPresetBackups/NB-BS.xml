@@ -18,7 +18,7 @@
             <Control type="ScriptSlider" id="knbPartialRelease" value="80.0"/>
             <Control type="ScriptSlider" id="knbResidueGain" value="0.75"/>
             <Control type="ScriptSlider" id="knbResidueAttack" value="5.0"/>
-            <Control type="ScriptSlider" id="knbResidueDecay" value="17730.0"/>
+            <Control type="ScriptSlider" id="knbResidueDecay" value="4938.0"/>
             <Control type="ScriptSlider" id="knbResidueSustain" value="-100.0"/>
             <Control type="ScriptSlider" id="knbResidueRelease" value="320.0"/>
             <Control type="ScriptSlider" id="knbPitchVelocity" value="0.1000000014901161"/>
@@ -93,7 +93,7 @@
           <ChildProcessors>
             <Processor Type="AHDSR" ID="leftRS_gainAHDSR" Bypassed="0" Monophonic="0.0"
                        Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                       Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="17730.0" Sustain="-100.0"
+                       Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="4938.0" Sustain="-100.0"
                        Release="320.0" EcoMode="1.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
